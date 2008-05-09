@@ -1,0 +1,53 @@
+libopensync0-plugin-moto
+------------------------------------------
+Motorola plugin for the OpenSync synchronization framework.
+
+Runtime requirements:
+  libopensync0-plugin-python-0.22-1
+  python-2.5.2-1
+  python-dateutil-1.4-1
+  python-opensync-0.22-2
+  python-xml-0.8.4-2
+
+Build requirements:
+  cygport-0.3.10-1
+
+Canonical website:
+  http://www.opensync.org/
+
+Canonical download:
+  http://www.opensync.org/download/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libopensync0-plugin-moto-0.22-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libopensync0-plugin-moto-0.22-X.cygport all
+
+This will create:
+  /usr/src/libopensync0-plugin-moto-0.22-X-src.tar.bz2
+  /usr/src/libopensync0-plugin-moto-0.22-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/opensync/python-plugins/motosync.py
+  /usr/share/doc/libopensync0-plugin-moto-0.22/AUTHORS
+  /usr/share/doc/libopensync0-plugin-moto-0.22/COPYING
+  /usr/share/doc/libopensync0-plugin-moto-0.22/README
+  /usr/share/opensync/defaults/moto-sync
+
+------------------
+
+Port Notes:
+
+----- version 0.22-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

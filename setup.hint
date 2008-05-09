@@ -1,0 +1,4 @@
+category: Libs
+requires: libopensync0-plugin-python python python-dateutil python-opensync python-xml
+sdesc: "OpenSync Motorola plugin"
+ldesc: "Motorola plugin for the OpenSync synchronization framework"
